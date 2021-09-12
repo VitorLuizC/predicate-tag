@@ -20,7 +20,8 @@
     ]
   },
   "dependencies": {
-    "@bitty/predicate": "^0.1.1"
+    "@bitty/predicate": "^0.1.1",
+    "@vitorluizc/predicates": "0.0.0"
   },
   "devDependencies": {
     "@types/eslint": "^7.28.0",
