@@ -10,7 +10,7 @@ describe('UnaryFunction | type | unit test', () => {
     expect(show(1)).toBe('The received argument is "1".');
   });
 
-  it('receives return and argument type as generic parameters', () => {
+  it('receives return and argument types as generics', () => {
     const showNumber: UnaryFunction<string, number> = (value) => (
       `The received argument is "${value.toFixed(2)}".`
     );
